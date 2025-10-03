@@ -27,3 +27,20 @@ html {
     font-size: 1rem;
     margin-right: 1.3rem;
 }
+
+/* genres */
+.dropdown-menu a {
+    color: #221F1F;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.dropdown-menu a:hover {
+    color: #221F1F;
+}
+
+#GenresRight a {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    color: white;
+}

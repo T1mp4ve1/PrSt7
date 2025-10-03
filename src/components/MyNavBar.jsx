@@ -24,14 +24,14 @@ function MyNavBar() {
         </div>
         <div id="navRight" className="d-flex">
           <a href="#">
-            <i class="bi bi-search"></i>
+            <i className="bi bi-search"></i>
           </a>
           <a href="#">KIDS</a>
           <a href="#">
-            <i class="bi bi-bell"></i>
+            <i className="bi bi-bell"></i>
           </a>
           <a href="#">
-            <i class="bi bi-person-circle"></i>
+            <i className="bi bi-person-circle"></i>
           </a>
         </div>
       </Container>
