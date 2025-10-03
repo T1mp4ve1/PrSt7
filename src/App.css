@@ -6,20 +6,16 @@ html {
 }
 
 /* navbar */
-.container-fluid a {
-    color: #C8C7C7;
+#navId a {
+    color: #838383;
     text-decoration: none;
     margin-right: 1.1rem;
     font-weight: bold;
     font-size: 0.9rem;
 }
 
-.container-fluid a:hover {
+#navId a:hover {
     color: white;
-}
-
-.container-fluid a:active {
-    color: rgb(255, 0, 0);
 }
 
 #navRight a {
@@ -43,4 +39,45 @@ html {
     font-size: 1.4rem;
     margin-left: 1rem;
     color: white;
+}
+
+/* grid */
+.imgGrid {
+    transition: all 0.3s;
+}
+
+.imgGrid:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+/* footer {
+    overflow: hidden;
+} */
+
+footer a {
+    font-size: 0.8rem;
+    color: #838383;
+    text-decoration: none;
+    margin-bottom: 0.4rem;
+    font-weight: 400;
+}
+
+footer p {
+    font-size: 0.6rem;
+    color: #838383;
+}
+
+footer i {
+    font-size: 1rem;
+}
+
+#btnFooter {
+    color: #838383;
+    border: 1px solid #838383;
+}
+
+#btnFooter:hover {
+    color: white;
+    border: 1px solid #83838300;
 }

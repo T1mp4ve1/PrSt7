@@ -6,7 +6,7 @@ import logo from "../assets/img/logo.png";
 function MyNavBar() {
   return (
     <Navbar expand="lg">
-      <Container fluid>
+      <Container fluid id="navId">
         <div id="navLeft" className="d-flex">
           <Navbar.Brand href="#">
             <img src={logo} alt="NETFLIXlogo" width="99" />
