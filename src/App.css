@@ -43,6 +43,9 @@ html {
 
 /* grid */
 .imgGrid {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
     transition: all 0.3s;
 }
 
@@ -50,11 +53,8 @@ html {
     transform: scale(1.1);
 }
 
-/* footer */
-/* footer {
-    overflow: hidden;
-} */
 
+/* footer */
 footer a {
     font-size: 0.8rem;
     color: #838383;

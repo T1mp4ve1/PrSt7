@@ -5,37 +5,39 @@ import logo from "../assets/img/logo.png";
 
 function MyNavBar() {
   return (
-    <Navbar expand="lg">
-      <Container fluid id="navId">
-        <div id="navLeft" className="d-flex">
-          <Navbar.Brand href="#">
-            <img src={logo} alt="NETFLIXlogo" width="99" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <a href="#">Home</a>
-              <a href="#">TV Shows</a>
-              <a href="#">Movies</a>
-              <a href="#">Recently Added</a>
-              <a href="#">My List</a>
-            </Nav>
-          </Navbar.Collapse>
-        </div>
-        <div id="navRight" className="d-flex">
-          <a href="#">
-            <i className="bi bi-search"></i>
-          </a>
-          <a href="#">KIDS</a>
-          <a href="#">
-            <i className="bi bi-bell"></i>
-          </a>
-          <a href="#">
-            <i className="bi bi-person-circle"></i>
-          </a>
-        </div>
-      </Container>
-    </Navbar>
+    <nav>
+      <Navbar expand="lg">
+        <Container fluid id="navId">
+          <div id="navLeft" className="d-flex">
+            <Navbar.Brand href="#">
+              <img src={logo} alt="NETFLIXlogo" width="99" />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <a href="#">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">Recently Added</a>
+                <a href="#">My List</a>
+              </Nav>
+            </Navbar.Collapse>
+          </div>
+          <div id="navRight" className="d-flex">
+            <a href="#">
+              <i className="bi bi-search"></i>
+            </a>
+            <a href="#">KIDS</a>
+            <a href="#">
+              <i className="bi bi-bell"></i>
+            </a>
+            <a href="#">
+              <i className="bi bi-person-circle"></i>
+            </a>
+          </div>
+        </Container>
+      </Navbar>
+    </nav>
   );
 }
 

@@ -6,6 +6,7 @@ import MyNavBar from "./components/MyNavBar";
 import GenresMenu from "./components/GenresMenu";
 import GridFilm from "./components/GridFilm";
 import FooterNetflix from "./components/FooterNetflix";
+// import FetchTest from "./components/FetchTest";
 
 function App() {
   return (
@@ -13,11 +14,14 @@ function App() {
       <MyNavBar />
       <Container fluid className="px-4">
         <GenresMenu />
-        <GridFilm />
+        <main>
+          <GridFilm categoryName={"Trending Now"} yourSearch={"Scary Movie"} />
+          <GridFilm categoryName={"Watch it Again"} yourSearch={"comedy"} />
+          <GridFilm categoryName={"New Releases"} yourSearch={"fantozzi"} />
+        </main>
       </Container>
       <FooterNetflix />
     </>
   );
 }
-
 export default App;
