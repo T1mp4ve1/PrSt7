@@ -1,0 +1,29 @@
+#root,
+body,
+html {
+    background-color: #221F1F;
+    height: 100%;
+}
+
+/* navbar */
+.container-fluid a {
+    color: #C8C7C7;
+    text-decoration: none;
+    margin-right: 1.1rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.container-fluid a:hover {
+    color: white;
+}
+
+.container-fluid a:active {
+    color: rgb(255, 0, 0);
+}
+
+#navRight a {
+    color: white;
+    font-size: 1rem;
+    margin-right: 1.3rem;
+}
